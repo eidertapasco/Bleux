@@ -1,0 +1,92 @@
+
+:root{
+    --primary-color: #2E2550;
+    --secondary-color: #1E172F;
+    --third-color: #FFFFFF;
+    --fourth-color: #F41486;;
+    --fifth-color:  #C64287;
+    --six-color: #F1F2F7;
+    --button-color: linear-gradient(to right, #8043D5, #2F6BD6);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*NAVIGATION HEADER*/
+
+.header__container{
+    background-color: var(--secondary-color);
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__branding{
+    display: flex;
+}
+
+.header__logo{
+    width: 16rem;
+    height: 8rem;
+    margin-left: 10vw;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__menu-item{
+    font-size: 1.8rem;
+    list-style: none;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__link{
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.header__link:hover{
+    color: var(--fourth-color);
+}
+
+.btn{
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.btn-header{
+    border: 1px solid var(--button-color);
+    border-radius: 8px;
+    padding: 10px;
+    background: var(--button-color);
+}
+
+.btn-header:hover{
+    color: var(--fourth-color);
+}
+
+/*------------------ MAIN SECTION -----------------*/
+
+.hero{
+    
+}
+.hero__content{}
+.hero__text{
+    width: 50vw;
+    height: 80vh;
+    background-color: var(--primary-color);
+}
