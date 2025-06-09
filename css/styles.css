@@ -42,7 +42,7 @@ html, body {
     width: 18rem;
     height: auto;
     margin: 7vw;
-    padding: 10%;
+    padding: 5%;
 }
 
 .header__menu{
@@ -169,7 +169,6 @@ html, body {
     width: 100vw;
     min-height: 80vh;
     background-color: var(--third-color);
-    
 }
 
 .features__container{
@@ -183,7 +182,8 @@ html, body {
     flex-direction: column;
     align-items: center;
     color: var(--fourth-color);
-    font-size: 5rem;
+    font-size: 6rem;
+    margin-top: 2%;
     margin-bottom: 5%;
 }
 
@@ -249,5 +249,59 @@ html, body {
     width: 2.8%;
 }
 
-/*----------------------------------*/
+/*----------------SECTION 3------------------*/
 
+.pricing{
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+.pricing__container{
+    display: flex;
+    flex-direction: column;
+}
+.pricing__title{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--third-color);
+    font-size: 6rem;
+    font-weight: 900;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.pricing__description{
+    color: var(--third-color);
+    font-size: 2rem;
+    margin: 0 30%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.pricing__cards{
+    background-color: #2F6BD6;
+    width: 80%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pricing__card{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+}
