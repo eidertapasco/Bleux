@@ -50,7 +50,9 @@
             <!-- Features Section -->
             <section class="features">
                 <div class="features__container">
-                    <h2 class="features__heading">Fonctionnalités</h2>
+                    <div class="features__heading">
+                        <h2 >Fonctionnalités</h2>
+                    </div>
                     <div class="features__content">
                         <figure class="features__media">
                             <img src="assets/laptop.png" alt="Alpha laptop" class="features__image" />
@@ -62,9 +64,9 @@
                             </p>
                             <p class="features__highlight"><strong>— Marketing Page</strong></p>
                             <ul class="features__list">
-                                <li class="features__item"><img src="assets/iconcheck.png" alt="" class="icon-check"> Based on Bootstrap 4</li>
-                                <li class="features__item"><img src="assets/iconcheck.png" alt="" class="icon-check"> Modern and creative</li>
-                                <li class="features__item"><img src="assets/iconcheck.png" alt="" class="icon-check"> Optimized for mobile devices</li>
+                                <li class="features__item"><span class="icon-circle-check">✔</span> Based on Bootstrap 4</li>
+                                <li class="features__item"><span class="icon-circle-check">✔</span> Modern and creative</li>
+                                <li class="features__item"><span class="icon-circle-check">✔</span> Optimized for mobile devices</li>
                             </ul>
                         </article>
                     </div>
@@ -74,50 +76,70 @@
             <!--------------------------------Section 3------------------------------------->
             <section class="pricing">
                 <div class="pricing__container">
-                    <h2 class="pricing__title">Plans & Pricing</h2>
+                    <div class="pricing__title">
+                        <h2 >Plans & Pricing</h2>
+                    </div>
                     <p class="pricing__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti obcaecati itaque tempore laboriosam accusamus cumque facilis? Laborum minima recusandae reprehenderit commodi deserunt ab tempore? Ipsum dignissimos error accusamus consequatur?</p>
                     <div class="pricing__cards">
                         <!----------------------------First Card-------------------------------------->
                         <article class="pricing__card">
-                            <h3 class="pricing__plan">Lite</h3>
-                            <p class="pricing__price">$0 Free</p>
-                                <ul class="pricing__features">
-                                <li class="pricing__feature">Full Components</li>
-                                <li class="pricing__feature">Future Updates</li>
-                                <li class="pricing__feature">Documentation</li>
-                                <li class="pricing__feature">Customer Support</li>
-                                <li class="pricing__feature">Cool Option</li>
+                            <img src="assets/hoja.png" alt="Icono de hoja">
+                            <h3 class="pricing__plan pricing__lite">Lite</h3>
+                            <div class="pricing__price">
+                                <p >$0 <span class="pricing__license">Free</span></p>
+                            </div>
+                            <ul class="pricing__features">
+                                <li class="pricing__feature"><span style="color: #F41486;">★</span> Full Components</li>
+                                <li class="pricing__feature"><span style="color: #F41486;">✔</span> Future Updates</li>
+                                <li class="pricing__feature"><span style="color: #F41486;">✔</span> Documentation</li>
+                                <li class="pricing__feature"><span style="color: #F41486;">✔</span> Customer Support</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✖</span> Cool Option</li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odit fugit dolore aliquid nostrum amet itaque, voluptatibus necessitatibus minus?</p>
-                            <a href="#" class="btn btn--primary">Subscribe Now</a>
+                            <article class="pricing__text">
+                                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odit fugit dolore aliquid nostrum amet itaque, voluptatibus necessitatibus minus?</p>
+                            </article>
+                            <a href="#" class="btn btn-subscribe --btn-action">Subscribe Now</a>
                         </article>
                         <!---------------------------Second Card-------------------------------------->
                         <article class="pricing__card pricing__card--featured">
+                            <img src="assets/nube.png" alt="Icono de nube">
                             <h3 class="pricing__plan">Standard</h3>
-                            <p class="pricing__price">$24 per month</p>
+                            <div class="pricing__price">
+                                <p>$24 <span class="pricing__license">per month</span></p>
+                            </div>
+
                             <ul class="pricing__features">
-                                <li class="pricing__feature">Full Components</li>
-                                <li class="pricing__feature">Future Updates</li>
-                                <li class="pricing__feature">Documentation</li>
-                                <li class="pricing__feature">Customer Support</li>
-                                <li class="pricing__feature">Cool Option</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">★</span> Full Components</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✔</span> Future Updates</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✔</span> Documentation</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✔</span> Customer Support</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✖</span> Cool Option</li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odit fugit dolore aliquid nostrum amet itaque, voluptatibus necessitatibus minus?</p>
-                            <a href="#" class="btn btn--outline">Subscribe Now</a>
+                            <article class="pricing__text">
+                                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odit fugit dolore aliquid nostrum amet itaque, voluptatibus necessitatibus minus?</p>
+                            </article>
+                            
+                            <a href="#" class="btn btn-subscribe">Subscribe Now</a>
                         </article>
                         <!-----------------------------Third Card------------------------------------->
                         <article class="pricing__card">
+                            <img src="assets/maletin.png" alt="Icono de maletin">
                             <h3 class="pricing__plan">Ultimate</h3>
-                            <p class="pricing__price">$400 per user/year</p>
+                            <div class="pricing__price">
+                                <p>$400 <span class="pricing__license">per user/year</span></p>
+                            </div>
+                            
                             <ul class="pricing__features">
-                                <li class="pricing__feature">Full Components</li>
-                                <li class="pricing__feature">Future Updates</li>
-                                <li class="pricing__feature">Documentation</li>
-                                <li class="pricing__feature">Customer Support</li>
-                                <li class="pricing__feature">Cool Option</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">★</span> Full Components</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✔</span> Future Updates</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✔</span> Documentation</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✔</span> Customer Support</li>
+                                <li class="pricing__feature"><span style="color: #2E2550;">✖</span> Cool Option</li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odit fugit dolore aliquid nostrum amet itaque, voluptatibus necessitatibus minus?</p>
-                            <a href="#" class="btn btn--outline">Subscribe Now</a>
+                            <article class="pricing__text">
+                                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odit fugit dolore aliquid nostrum amet itaque, voluptatibus necessitatibus minus?</p>
+                            </article>
+                            <a href="#" class="btn btn-subscribe">Subscribe Now</a>
                         </article>
                     </div>
                 </div>
@@ -125,17 +147,17 @@
         </main>
         <!--------------------------------Footer---------------------------------->
         <footer class="footer">
-            <div class="footer__container">
+            <section class="footer__container">
                 <p class="footer__copyright">
-                    &copy;Website made by Eider Tapasco - <a href="eidertapasco.dev@gmail.com" class="footer__email">eidertapasco.dev@gmail.com</a>
+                    &copy;Website made by <span class="footer__namedev">Eider Tapasco</span> - <a href="eidertapasco.dev@gmail.com">eidertapasco.dev@gmail.com</a>
                 </p>
                 <ul class="footer__social">
-                    <li class="footer__social-item"><a href="#"><img src="#" alt="Facebook"></a></li>
-                    <li class="footer__social-item"><a href="#"><img src="#" alt="Twitter"></a></li>
-                    <li class="footer__social-item"><a href="#"><img src="#" alt="LinkedIn"></a></li>
-                    <li class="footer__social-item"><a href="#"><img src="#" alt="Instagram"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="assets/icons/facebook-icon.png" alt="Facebook"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="assets/icons/twitter-icon.png" alt="Twitter"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="assets/icons/linkedin-icon.png" alt="LinkedIn"></a></li>
+                    <li class="footer__social-item"><a href="#"><img src="assets/icons/instagram-icon.png" alt="Instagram"></a></li>
                 </ul>
-            </div>
+            </section>
         </footer>
     </body>
 </html>

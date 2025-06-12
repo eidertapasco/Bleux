@@ -6,6 +6,7 @@
     --fifth-color:  #C64287;
     --six-color: #F1F2F7;
     --button-color: linear-gradient(to right, #8043D5, #2F6BD6);
+    --button-color2: linear-gradient(to right, #c54e8b, #F41486);
 }
 
 *{
@@ -22,7 +23,7 @@ html, body {
     overflow-x: hidden;
 }
 
-/*NAVIGATION HEADER*/
+/*----------------NAVIGATION HEADER----------------*/
 
 .header__container{
     background-color: var(--secondary-color);
@@ -164,11 +165,11 @@ html, body {
     transform: translate(-50%, -50%);
 }
 
-/*------------FEATURES SECTION---------------*/
+/*--------------- FEATURES SECTION ---------------*/
 .features{
     width: 100vw;
     min-height: 80vh;
-    background-color: var(--third-color);
+    background-color: var(--six-color);
     
 }
 
@@ -183,14 +184,18 @@ html, body {
     flex-direction: column;
     align-items: center;
     color: var(--fourth-color);
-    font-size: 5rem;
-    margin-bottom: 5%;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 3%;
+    padding-top: 2%;
 }
 
 .features__content{
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .features__media{
@@ -249,5 +254,175 @@ html, body {
     width: 2.8%;
 }
 
-/*----------------------------------*/
+/*-------------------- PRICING CARDS ----------------------------*/
+.pricing{
+    background-color: var(--primary-color);
+    width: 100vw;
+    min-height: 100vh;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.pricing__container{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pricing__title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--third-color);
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+.pricing__description{
+    color: var(--third-color);
+    font-size: 1.8rem;
+    margin: 0 25%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.pricing__cards{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.pricing__card{
+    background-color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+.pricing__plan{
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+
+.pricing__lite{
+    color: var(--fourth-color);
+}
+
+.pricing__price{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.pricing__price p{
+    color: var(--primary-color);
+    font-size: 3rem;
+    background-color: var(--six-color);
+    text-align: center;
+    padding: 5% 0;
+}
+
+.pricing__license{
+    font-size: 1.5rem;
+}
+
+.pricing__feature{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+
+/*ESTILOS DEL ICONO CIRCULAR - MARKETING PAGE*/
+.icon-circle-check {
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: var(--fourth-color);
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2.4rem;
+  font-weight: bold;
+}
+
+.pricing__text{
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20% 10%;
+}
+
+.btn-subscribe{
+    border: 1px solid var(--button-color);
+    border-radius: 4px;
+    padding: 5% 10%;
+    background: var(--button-color);
+    color: var(--third-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+    
+}
+
+.--btn-action{
+    border: 1px solid var(--button-color);
+    background: var(--button-color2);
+}
+
+/*-------------- FOOTER --------------------*/
+
+.footer{
+    background-color: var(--six-color);
+    width: 100vw;
+    height: 15vh;
+}
+
+.footer__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright{
+    width: 50%;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin: 0 5%;
+}
+
+.footer__namedev{
+    color: var(--fourth-color);
+}
+.footer__copyright a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer__social{
+    width: 50%;
+    display: flex;
+    padding-left: 25%;
+}
+
+.footer__social-item{
+    list-style: none;
+    margin: 0 1.5%;
+}
+
+.footer__social img{
+    width: 3rem;
+}
